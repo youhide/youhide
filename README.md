@@ -1,8 +1,12 @@
+👋 Hey, I’m Youri — also known as hideOut and youHide.  
+🖥️ Homelabbing since 2007: building boxes, breaking clusters, fixing the chaos, and repeating the loop for over a decade.  
+⚙️ DevOps & Infrastructure Engineer focused on AWS, Kubernetes, GitOps, Terraform/Terragrunt, and automation that actually solves problems.  
+🧪 I experiment, prototype, and tune systems in my homelab before deploying them at scale. If it survives the chaos at home, it survives anywhere.  
+🎮 Maker, gamer, and retro-tech enthusiast. Always learning, always shipping.  
 ###
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=youhide&locale=en&mode=weekly&theme=dracula&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=youhide&theme=dracula&no-frame=true&no-bg=true" height="150" alt="trophy graph"  />
 </div>
 
 ###
