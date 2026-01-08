@@ -1,42 +1,103 @@
-👋 Hey, I’m Youri — also known as hideOut and youHide.  
-🖥️ Homelabbing since 2007: building boxes, breaking clusters, fixing the chaos, and repeating the loop for over a decade.  
-⚙️ DevOps & Infrastructure Engineer focused on AWS, Kubernetes, GitOps, Terraform/Terragrunt, and automation that actually solves problems.  
-🧪 I experiment, prototype, and tune systems in my homelab before deploying them at scale. If it survives the chaos at home, it survives anywhere.  
-🎮 Maker, gamer, and retro-tech enthusiast. Always learning, always shipping.  
-###
+<div align="center">
+
+# Hey, I'm Youri 👋
+
+### Also known as `hideOut` and `youHide`
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=600&lines=DevOps+%26+Infrastructure+Engineer;Homelabbing+since+2007;Building%2C+breaking%2C+fixing%2C+repeat;If+it+survives+my+homelab%2C+it+survives+anywhere)](https://git.io/typing-svg)
+
+</div>
+
+---
+
+### 🧑‍💻 About Me
+
+```yaml
+name: Youri
+role: DevOps & Infrastructure Engineer
+location: Brazil 🇧🇷
+homelabbing_since: 2007
+
+currently_working_on:
+  - Clusters at scale
+  - GitOps workflows
+  - Infrastructure as Code
+  
+interests:
+  - Cloud Native technologies
+  - Homelab experiments
+  - Retro gaming & tech
+  - Automation that actually works
+```
+
+---
+
+### 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=youhide&locale=en&mode=weekly&theme=dracula&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
+
+#### ☁️ Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-web-services&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GCP-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+
+#### 🐳 Containers & Orchestration
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-%230F1689.svg?style=for-the-badge&logo=helm&logoColor=white)
+
+#### ⚙️ IaC & Automation
+![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+
+#### 🐧 Systems & Tools
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 </div>
 
-###
+---
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="40" alt="terraform logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="40" alt="ansible logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" height="40" alt="redhat logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="bash logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="40" alt="apple logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
+### 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=youhide&theme=dracula&hide_border=true&area=true" width="95%"/>
 </div>
 
-###
+---
 
-<br clear="both">
+### 🏠 Homelab Philosophy
 
-<img src="https://raw.githubusercontent.com/youhide/youhide/output/snake.svg" alt="Snake animation" />
+> *"I experiment, prototype, and tune systems in my homelab before deploying them at scale.*  
+> *If it survives the chaos at home, it survives anywhere."*
 
-###
+<div align="center">
+
+🖥️ **18+ years** of building boxes, breaking clusters, fixing the chaos, and repeating the loop.
+
+</div>
+
+---
+
+### 🤝 Connect with me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourimattar)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/youhide)
+
+</div>
+
+---
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=youhide&color=bd93f9&style=for-the-badge&label=PROFILE+VIEWS)
+
+*Always learning, always shipping* 🚀
+
+</div>
