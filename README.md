@@ -71,6 +71,21 @@ interests:
 
 ---
 
+### 🏆 CodersRank Scores & Badges
+
+<div align="center">
+
+[![CodersRank](https://img.shields.io/badge/CodersRank-Score%20562.51-bd93f9?style=for-the-badge&logo=codersrank&logoColor=white)](https://profile.codersrank.io/user/youhide)
+[![World Rank](https://img.shields.io/badge/World%20Rank-%238%2C502%20of%20627K-44475a?style=for-the-badge)](https://profile.codersrank.io/user/youhide)
+
+[![HCL](https://img.shields.io/badge/🥇%20HCL-Top%206%20in%20Brazil%20|%20%2336%20Worldwide-50fa7b?style=for-the-badge)](https://profile.codersrank.io/user/youhide)
+[![NestJS](https://img.shields.io/badge/🥈%20NestJS-Top%2050%20in%20Brazil-ff79c6?style=for-the-badge)](https://profile.codersrank.io/user/youhide)
+[![Go](https://img.shields.io/badge/🥉%20Go-Top%20100%20in%20Brazil-8be9fd?style=for-the-badge)](https://profile.codersrank.io/user/youhide)
+
+</div>
+
+---
+
 ### 📊 GitHub Stats
 
 <div align="center">
