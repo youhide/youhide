@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="youHide — DevOps and Platform Engineer, homelabbing since 2007">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="50%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card">
+      <rect width="1200" height="300" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="300" fill="#282a36"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+
+    <!-- title bar -->
+    <rect width="1200" height="46" fill="#21222c"/>
+    <circle cx="34" cy="23" r="7" fill="#ff5555"/>
+    <circle cx="58" cy="23" r="7" fill="#f1fa8c"/>
+    <circle cx="82" cy="23" r="7" fill="#50fa7b"/>
+    <text x="600" y="28" text-anchor="middle" font-size="15" fill="#6272a4">youhide@homelab: ~</text>
+
+    <!-- server rack -->
+    <g transform="translate(928,84)" opacity="0.95">
+      <g>
+        <rect width="212" height="40" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
+        <circle cx="24" cy="20" r="4" fill="#50fa7b">
+          <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="42" cy="20" r="4" fill="#8be9fd"/>
+        <rect x="110" y="11" width="86" height="3" rx="1.5" fill="#44475a"/>
+        <rect x="110" y="19" width="86" height="3" rx="1.5" fill="#44475a"/>
+        <rect x="110" y="27" width="86" height="3" rx="1.5" fill="#44475a"/>
+      </g>
+      <g transform="translate(0,50)">
+        <rect width="212" height="40" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
+        <circle cx="24" cy="20" r="4" fill="#50fa7b">
+          <animate attributeName="opacity" values="1;0.25;1" dur="3.1s" begin="0.6s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="42" cy="20" r="4" fill="#bd93f9"/>
+        <rect x="110" y="11" width="86" height="3" rx="1.5" fill="#44475a"/>
+        <rect x="110" y="19" width="86" height="3" rx="1.5" fill="#44475a"/>
+        <rect x="110" y="27" width="86" height="3" rx="1.5" fill="#44475a"/>
+      </g>
+      <g transform="translate(0,100)">
+        <rect width="212" height="40" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
+        <circle cx="24" cy="20" r="4" fill="#ffb86c">
+          <animate attributeName="opacity" values="1;0.25;1" dur="1.9s" begin="1.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="42" cy="20" r="4" fill="#8be9fd"/>
+        <rect x="110" y="11" width="86" height="3" rx="1.5" fill="#44475a"/>
+        <rect x="110" y="19" width="86" height="3" rx="1.5" fill="#44475a"/>
+        <rect x="110" y="27" width="86" height="3" rx="1.5" fill="#44475a"/>
+      </g>
+      <g transform="translate(0,150)">
+        <rect width="212" height="40" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
+        <circle cx="24" cy="20" r="4" fill="#50fa7b">
+          <animate attributeName="opacity" values="1;0.25;1" dur="2.7s" begin="0.3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="42" cy="20" r="4" fill="#ff79c6"/>
+        <rect x="110" y="11" width="86" height="3" rx="1.5" fill="#44475a"/>
+        <rect x="110" y="19" width="86" height="3" rx="1.5" fill="#44475a"/>
+        <rect x="110" y="27" width="86" height="3" rx="1.5" fill="#44475a"/>
+      </g>
+    </g>
+
+    <!-- prompt -->
+    <text x="48" y="112" font-size="24">
+      <tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">whoami</tspan>
+    </text>
+
+    <text x="48" y="192" font-size="66" font-weight="700" fill="#bd93f9">youHide<tspan fill="#ff79c6" dx="10">█<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+
+    <text x="48" y="232" font-size="21" fill="#8be9fd">DevOps · Platform Engineer · Infrastructure Necromancer</text>
+    <text x="48" y="266" font-size="15" fill="#6272a4"># homelabbing since 2007 — if it survives my homelab, it survives anywhere</text>
+
+    <rect x="0" y="294" width="1200" height="6" fill="url(#accent)"/>
+  </g>
+</svg>
