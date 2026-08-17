@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="youHide — DevOps and Platform Engineer, homelabbing since 2007">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="youHide, aka hideOut — DevOps and Platform Engineer, homelabbing since 2007">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#bd93f9"/>
@@ -76,7 +76,7 @@
     <text x="48" y="192" font-size="66" font-weight="700" fill="#bd93f9">youHide<tspan fill="#ff79c6" dx="10">█<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></tspan></text>
 
     <text x="48" y="232" font-size="21" fill="#8be9fd">DevOps · Platform Engineer · Infrastructure Necromancer</text>
-    <text x="48" y="266" font-size="15" fill="#6272a4"># homelabbing since 2007 — if it survives my homelab, it survives anywhere</text>
+    <text x="48" y="266" font-size="15" fill="#6272a4"># aka hideOut · homelabbing since 2007 — if it survives my homelab, it survives anywhere</text>
 
     <rect x="0" y="294" width="1200" height="6" fill="url(#accent)"/>
   </g>

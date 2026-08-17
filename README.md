@@ -1,12 +1,8 @@
-<img alt="youHide — DevOps · Platform Engineer · Infrastructure Necromancer" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/header.svg" width="100%"/>
+<img alt="youHide, aka hideOut — DevOps · Platform Engineer · Infrastructure Necromancer" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/header.svg" width="100%"/>
 
 <div align="center">
 
 # Hey, I'm Youri 👋
-
-### Also known as `hideOut` and `youHide`
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=650&lines=DevOps+%26+Platform+Engineer;Infrastructure+Necromancer;Keeper+of+Ancient+Scripts;Homelabbing+since+2007;If+it+survives+my+homelab%2C+it+survives+anywhere)](https://github.com/youhide)
 
 [![Website](https://img.shields.io/badge/youhide.com.br-bd93f9?style=flat-square&logo=googlechrome&logoColor=white&labelColor=282a36)](https://youhide.com.br)
 [![PostRite](https://img.shields.io/badge/postrite.app-ff79c6?style=flat-square&logo=googlechrome&logoColor=white&labelColor=282a36)](https://postrite.app)
@@ -21,11 +17,8 @@
 ### 🧑‍💻 About Me
 
 ```yaml
-name: Youri
-role: DevOps · Platform Engineer · Infrastructure Necromancer
 also: Keeper of Ancient Scripts
 location: Londrina, Brazil 🇧🇷
-homelabbing_since: 2007
 
 by_day:
   - Clusters at scale
@@ -285,25 +278,11 @@ by_night:
 
 ### 🏠 Homelab Philosophy
 
-> *"I experiment, prototype, and tune systems in my homelab before deploying them at scale.*  
-> *If it survives the chaos at home, it survives anywhere."*
+> *"I experiment, prototype, and tune systems in my homelab before deploying them at scale."*
 
 <div align="center">
 
 🖥️ **19 years** of building boxes, breaking clusters, fixing the chaos, and repeating the loop.
-
-</div>
-
-<img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
-
-### 🤝 Connect with me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourimattar)
-[![Website](https://img.shields.io/badge/youhide.com.br-BD93F9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://youhide.com.br)
-[![X](https://img.shields.io/badge/@__hideout-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/_hideout)
-[![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/youhide)
 
 </div>
 
