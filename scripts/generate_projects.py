@@ -44,13 +44,15 @@ PROJECTS = [
      "Mural de vagas em tecnologia focado no mercado brasileiro"),
 ]
 
+LOGO_X, LOGO_W = 48, 210   # shared logo column; logo and handle both centre on it
+
 ORGS = [
     {
         "file": "postrite",
         "name": "PostRite",
         "handle": "@Post-Rite",
         "logo": "postrite.png",
-        "logo_box": (48, 34, 210, 52),
+        "logo_box": (LOGO_X, 34, LOGO_W, 52),
         "tagline": "Engineering order inside the chaos of time-based publishing.",
         "body": "Social publishing in one workspace — 12+ networks, campaign calendar, "
                 "approval workflows with audit trail, per-platform variants, and an MCP server "
@@ -62,7 +64,7 @@ ORGS = [
         "name": "DevOps Brasil",
         "handle": "@DevOps-Brasil",
         "logo": "devops-brasil.jpg",
-        "logo_box": (48, 26, 68, 68),
+        "logo_box": (LOGO_X + (LOGO_W - 68) // 2, 26, 68, 68),
         "tagline": "Comunidade brasileira de DevOps, SRE, Cloud, Platform Engineering e Infra.",
         "body": "O board de Vagas é o carro-chefe da org.",
         "metric": ("DevOps-Brasil/Vagas", "stars on Vagas"),
@@ -165,8 +167,8 @@ def org_card(org, stars):
         "    " + svg.embed_image(
             os.path.join(ROOT, "assets", "logos", org["logo"]), lx, ly, lw, lh, clip_id
         ),
-        f'    <text x="{svg.PAD}" y="{ly + lh + 26}" font-size="13" '
-        f'fill="{svg.COMMENT}">{svg.esc(org["handle"])}</text>',
+        f'    <text x="{LOGO_X + LOGO_W / 2:.0f}" y="{ly + lh + 28}" text-anchor="middle" '
+        f'font-size="13" fill="{svg.COMMENT}">{svg.esc(org["handle"])}</text>',
         f'    <text x="{NAME_COL}" y="46" font-size="15" font-style="italic" '
         f'fill="{svg.CYAN}">{svg.esc(org["tagline"])}</text>',
     ]
