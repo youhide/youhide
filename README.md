@@ -253,24 +253,7 @@ by_night:
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=youhide&theme=dracula"/>
-  <img alt="Profile details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=youhide&theme=default" width="100%"/>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=youhide&theme=dracula&hide_border=true"/>
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=youhide&theme=default&hide_border=true" width="49%"/>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youhide&theme=dracula"/>
-  <img alt="Repos per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youhide&theme=default" width="49%"/>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=youhide&theme=dracula&hide_border=true&area=true"/>
-  <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=youhide&theme=github&hide_border=true&area=true" width="100%"/>
-</picture>
+<img alt="GitHub stats — contributions, streaks and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg" width="100%"/>
 
 </div>
 
