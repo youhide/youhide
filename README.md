@@ -14,198 +14,51 @@
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
 
-### 🧑‍💻 About Me
-
-```yaml
-also: Keeper of Ancient Scripts
-location: Londrina, Brazil 🇧🇷
-
-by_day:
-  - Clusters at scale
-  - GitOps workflows
-  - Infrastructure as Code
-
-by_night:
-  - Tools in Go and Rust that fix my own problems
-  - Homelab experiments
-  - Retro gaming & tech
-  - Automation that actually works
-```
+<img alt="About me: Keeper of Ancient Scripts, Londrina Brazil. By day clusters at scale, GitOps workflows and Infrastructure as Code; by night tools in Go and Rust, homelab experiments, retro gaming and automation" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/about.svg" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
 
-### 🔨 Things I've Built
+<img alt="Things I have built" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/labels/projects.svg" width="100%"/>
 
-<table>
-<tr>
-  <td valign="top" width="160">
-    <a href="https://github.com/youhide/OpenShard"><b>OpenShard</b></a><br/>
-    <sub>Rust</sub>
-  </td>
-  <td valign="top">Modern open-source MMORPG server engine, compatible with classic Ultima Online clients</td>
-  <td valign="top" align="right" width="110">
-    <!--stars:youhide/OpenShard-->⭐ 14<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/oxinit"><b>oxinit</b></a><br/>
-    <sub>Rust</sub>
-  </td>
-  <td valign="top">A service manager and PID 1 for Linux — TOML units, no panic, no async runtime <em>(pre-alpha)</em></td>
-  <td valign="top" align="right">
-    <!--stars:youhide/oxinit-->⭐ 1<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/hideDot"><b>hideDot</b></a><br/>
-    <sub>Go</sub>
-  </td>
-  <td valign="top">Blazing fast dotfiles manager — symlinks, git repo cloning and shell hooks from one YAML</td>
-  <td valign="top" align="right">
-    <!--stars:youhide/hideDot-->⭐ 7<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/homebrew-youhide"><b>homebrew-youhide</b></a><br/>
-    <sub>Ruby · Homebrew</sub>
-  </td>
-  <td valign="top">🍺 Homebrew tap for my dark tools — <code>brew tap youhide/youhide</code></td>
-  <td valign="top" align="right">
-    <!--stars:youhide/homebrew-youhide-->⭐ 0<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/hideTop"><b>hideTop</b></a><br/>
-    <sub>Go</sub>
-  </td>
-  <td valign="top">Terminal system monitor: CPU, memory, Apple Silicon GPU metrics and energy impact</td>
-  <td valign="top" align="right">
-    <!--stars:youhide/hideTop-->⭐ 1<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/hideGit"><b>hideGit</b></a><br/>
-    <sub>Rust</sub>
-  </td>
-  <td valign="top">Cross-platform desktop Git client with pull request alerts built in <em>(pre-alpha)</em></td>
-  <td valign="top" align="right">
-    <!--stars:youhide/hideGit-->⭐ 2<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/hideForming"><b>hideForming</b></a><br/>
-    <sub>HCL</sub>
-  </td>
-  <td valign="top">The whole homelab as Infrastructure as Code</td>
-  <td valign="top" align="right">
-    <!--stars:youhide/hideForming-->⭐ 1<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/theShortener"><b>theShortener</b></a><br/>
-    <sub>C++ · Node</sub>
-  </td>
-  <td valign="top">SHA-256 + Base62 string shortener as a native Node.js addon</td>
-  <td valign="top" align="right">
-    <!--stars:youhide/theShortener-->⭐ 3<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/hideGrowLegacy"><b>hideGrowLegacy</b></a><br/>
-    <sub>C</sub>
-  </td>
-  <td valign="top">ESP32 environmental monitoring with HomeKit — pH, temperature and CO₂</td>
-  <td valign="top" align="right">
-    <!--stars:youhide/hideGrowLegacy-->⭐ 2<!--/stars-->
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/youhide/vagas.tec.br"><b>vagas.tec.br</b></a><br/>
-    <sub>TypeScript</sub>
-  </td>
-  <td valign="top">Mural de vagas em tecnologia focado no mercado brasileiro</td>
-  <td valign="top" align="right">
-    <!--stars:youhide/vagas.tec.br-->⭐ 4<!--/stars-->
-  </td>
-</tr>
-</table>
+<a href="https://github.com/youhide/OpenShard"><img alt="OpenShard (Rust) — Modern open-source MMORPG server engine, compatible with classic Ultima Online clients" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/openshard.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/oxinit"><img alt="oxinit (Rust) — A service manager and PID 1 for Linux, TOML units, no panic, no async runtime (pre-alpha)" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/oxinit.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/hideDot"><img alt="hideDot (Go) — Blazing fast dotfiles manager: symlinks, git repo cloning and shell hooks from one YAML" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidedot.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/homebrew-youhide"><img alt="homebrew-youhide (Ruby, Homebrew) — Homebrew tap for my dark tools" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/homebrew-youhide.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/hideTop"><img alt="hideTop (Go) — Terminal system monitor: CPU, memory, Apple Silicon GPU metrics and energy impact" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidetop.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/hideGit"><img alt="hideGit (Rust) — Cross-platform desktop Git client with pull request alerts built in (pre-alpha)" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidegit.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/hideForming"><img alt="hideForming (HCL) — The whole homelab as Infrastructure as Code" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hideforming.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/theShortener"><img alt="theShortener (C++, Node) — SHA-256 + Base62 string shortener as a native Node.js addon" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/theshortener.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/hideGrowLegacy"><img alt="hideGrowLegacy (C) — ESP32 environmental monitoring with HomeKit: pH, temperature and CO2" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidegrowlegacy.svg" width="100%"/></a>
+
+<a href="https://github.com/youhide/vagas.tec.br"><img alt="vagas.tec.br (TypeScript) — Mural de vagas em tecnologia focado no mercado brasileiro" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/vagas.tec.br.svg" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
 
-### 🚀 Where I Build
+<img alt="Where I build" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/labels/building.svg" width="100%"/>
 
-<table>
-<tr>
-  <td valign="top" width="160">
-    <a href="https://postrite.app"><b>PostRite</b></a><br/>
-    <sub><a href="https://github.com/Post-Rite">@Post-Rite</a></sub>
-  </td>
-  <td valign="top">
-    <em>"Engineering order inside the chaos of time-based publishing."</em><br/>
-    Social publishing in one workspace — 12+ networks, campaign calendar, approval workflows with audit trail, per-platform variants, and an MCP server so AI assistants can schedule posts by conversation.
-  </td>
-  <td valign="top" align="right" width="130">
-    <a href="https://postrite.app"><img alt="postrite.app" src="https://img.shields.io/badge/postrite.app-bd93f9?style=flat-square&logo=googlechrome&logoColor=white"/></a>
-  </td>
-</tr>
-<tr>
-  <td valign="top">
-    <a href="https://github.com/DevOps-Brasil"><b>DevOps Brasil</b></a><br/>
-    <sub><a href="https://github.com/DevOps-Brasil">@DevOps-Brasil</a></sub>
-  </td>
-  <td valign="top">
-    Comunidade brasileira de DevOps, SRE, Cloud, Platform Engineering e Infra.<br/>
-    O board de <a href="https://github.com/DevOps-Brasil/Vagas"><b>Vagas</b></a> é o carro-chefe da org.
-  </td>
-  <td valign="top" align="right">
-    <!--stars:DevOps-Brasil/Vagas-->⭐ 173<!--/stars--><br/>
-    <!--followers:DevOps-Brasil-->👥 52<!--/followers-->
-  </td>
-</tr>
-</table>
+<a href="https://postrite.app"><img alt="PostRite (@Post-Rite) — Social publishing in one workspace: 12+ networks, campaign calendar, approval workflows with audit trail, per-platform variants and an MCP server" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/building/postrite.svg" width="100%"/></a>
+
+<a href="https://github.com/DevOps-Brasil"><img alt="DevOps Brasil (@DevOps-Brasil) — Comunidade brasileira de DevOps, SRE, Cloud, Platform Engineering e Infra" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/building/devops-brasil.svg" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
 
-### 🛠️ Tech Stack
-
-<img alt="Tech stack: languages, cloud, containers, IaC and systems" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/techstack.svg" width="100%"/>
+<img alt="Tech stack: Go, Rust, TypeScript, Node.js, C++, Bash, AWS, Google Cloud, DigitalOcean, Cloudflare, Kubernetes, Docker, Podman, Helm, OpenTofu, Terraform, Terragrunt, Ansible, GitHub Actions, Red Hat, Fedora, Ubuntu, FreeBSD, GhostBSD, macOS, Git" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/techstack.svg" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
-
-### 🏆 CodersRank
 
 <a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
 
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img alt="GitHub stats — contributions, streaks and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg" width="100%"/>
-
-</div>
-
-<img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
-
-### 🏠 Homelab Philosophy
-
-> *"I experiment, prototype, and tune systems in my homelab before deploying them at scale."*
-
-<div align="center">
-
-🖥️ **19 years** of building boxes, breaking clusters, fixing the chaos, and repeating the loop.
-
-</div>
+<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg" width="100%"/>
 

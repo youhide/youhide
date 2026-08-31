@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="About Youri: Keeper of Ancient Scripts, based in Londrina, Brazil. By day: clusters at scale, GitOps workflows, Infrastructure as Code. By night: tools in Go and Rust, homelab experiments, retro gaming, automation. I experiment, prototype, and tune systems in my homelab before deploying them at scale. 19 years of building boxes, breaking clusters, fixing the chaos, and repeating the loop.">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="50%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="600" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="600" fill="#282a36"/>
+    <rect width="1200" height="600" fill="url(#dots)"/>
+
+    <rect width="1200" height="46" fill="#21222c"/>
+    <circle cx="34" cy="23" r="7" fill="#ff5555"/>
+    <circle cx="58" cy="23" r="7" fill="#f1fa8c"/>
+    <circle cx="82" cy="23" r="7" fill="#50fa7b"/>
+    <text x="600" y="28" text-anchor="middle" font-size="15" fill="#6272a4">youhide@homelab: ~/about</text>
+
+    <text x="48" y="88" font-size="22"><tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">cat ~/about.yaml</tspan></text>
+    <text x="48" y="130" font-size="16"><tspan fill="#ff79c6">also</tspan><tspan fill="#f8f8f2">:</tspan><tspan fill="#f1fa8c" dx="10">Keeper of Ancient Scripts</tspan></text>
+    <text x="48" y="156" font-size="16"><tspan fill="#ff79c6">location</tspan><tspan fill="#f8f8f2">:</tspan><tspan fill="#f1fa8c" dx="10">Londrina, Brazil</tspan></text>
+    <text x="48" y="195" font-size="16"><tspan fill="#ff79c6">by_day</tspan><tspan fill="#f8f8f2">:</tspan></text>
+    <text x="72" y="221" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Clusters at scale</tspan></text>
+    <text x="72" y="247" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">GitOps workflows</tspan></text>
+    <text x="72" y="273" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Infrastructure as Code</tspan></text>
+    <text x="48" y="312" font-size="16"><tspan fill="#ff79c6">by_night</tspan><tspan fill="#f8f8f2">:</tspan></text>
+    <text x="72" y="338" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Tools in Go and Rust that fix my own problems</tspan></text>
+    <text x="72" y="364" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Homelab experiments</tspan></text>
+    <text x="72" y="390" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Retro gaming &amp; tech</tspan></text>
+    <text x="72" y="416" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Automation that actually works</tspan></text>
+    <line x1="48" y1="462" x2="1152" y2="462" stroke="#44475a" stroke-width="1" stroke-dasharray="3 5" opacity="0.6"/>
+    <text x="48" y="492" font-size="14" fill="#6272a4"># I experiment, prototype, and tune systems in my homelab</text>
+    <text x="48" y="514" font-size="14" fill="#6272a4"># before deploying them at scale.</text>
+    <text x="48" y="536" font-size="14" fill="#6272a4"># 19 years of building boxes, breaking clusters, fixing the chaos,</text>
+    <text x="48" y="558" font-size="14" fill="#6272a4"># and repeating the loop.</text>
+
+    <rect x="0" y="594" width="1200" height="6" fill="url(#accent)"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-label="youhide@homelab: ~/where-i-build">
+  <defs>
+    <clipPath id="strip"><rect width="1200" height="52" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#strip)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="52" fill="#21222c"/>
+    <circle cx="34" cy="26" r="7" fill="#ff5555"/>
+    <circle cx="58" cy="26" r="7" fill="#f1fa8c"/>
+    <circle cx="82" cy="26" r="7" fill="#50fa7b"/>
+    <text x="600" y="31" text-anchor="middle" font-size="15" fill="#6272a4">youhide@homelab: ~/where-i-build</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 86" width="1200" height="86" role="img" aria-label="hideForming (HCL) — The whole homelab as Infrastructure as Code. 1 stars on GitHub.">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="86" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="86" fill="#282a36"/>
+    <rect width="1200" height="86" fill="url(#dots)"/>
+    <rect x="0" y="0" width="4" height="86" fill="url(#edge)"/>
+
+    <text x="48" y="41" font-size="19" font-weight="700" fill="#bd93f9">hideForming</text>
+    <text x="48" y="63" font-size="13" fill="#6272a4">HCL</text>
+    <text x="285" y="48" font-size="15" fill="#f8f8f2">The whole homelab as Infrastructure as Code</text>
+    <text x="1152" y="48" text-anchor="end" font-size="16" fill="#f1fa8c">★ 1</text>
+
+    <rect x="0.75" y="0.75" width="1198.5" height="84.5" rx="12" fill="none" stroke="#44475a" stroke-width="1.5"/>
+  </g>
+</svg>

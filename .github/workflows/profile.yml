@@ -25,16 +25,17 @@ jobs:
           python3 scripts/generate_stats.py
           python3 scripts/generate_techstack.py
           python3 scripts/generate_codersrank.py
-          python3 scripts/update_readme.py
+          python3 scripts/generate_projects.py
+          python3 scripts/generate_about.py
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- assets README.md; then
+          if git diff --quiet -- assets; then
             echo "nothing changed"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets README.md
+          git add assets
           git commit -m 'Update profile cards'
           git push

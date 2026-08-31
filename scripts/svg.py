@@ -98,3 +98,90 @@ def pill(x, y, label, color, height=30, size=14):
         f'fill="{FG}">{esc(label)}</text></g>',
         width,
     )
+
+
+def row_card(height, body, aria, extra_defs=""):
+    """A card without the window chrome, for stacking as list rows."""
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {height}" width="{W}" height="{height}" role="img" aria-label="{esc(aria)}">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="{PURPLE}"/>
+      <stop offset="100%" stop-color="{CYAN}"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="{LINE}" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="{W}" height="{height}" rx="12"/></clipPath>{extra_defs}
+  </defs>
+
+  <g clip-path="url(#card)" font-family="{MONO}">
+    <rect width="{W}" height="{height}" fill="{BG}"/>
+    <rect width="{W}" height="{height}" fill="url(#dots)"/>
+    <rect x="0" y="0" width="4" height="{height}" fill="url(#edge)"/>
+
+{body}
+
+    <rect x="0.75" y="0.75" width="{W - 1.5}" height="{height - 1.5}" rx="12" fill="none" stroke="{LINE}" stroke-width="1.5"/>
+  </g>
+</svg>
+"""
+
+
+def label_strip(title, height=52):
+    """Names a group of row cards, now that the markdown headings are gone."""
+    body = (
+        f'    <text x="{W // 2}" y="{height // 2 + 5}" text-anchor="middle" font-size="15" '
+        f'fill="{COMMENT}">{esc(title)}</text>'
+    )
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {height}" width="{W}" height="{height}" role="img" aria-label="{esc(title)}">
+  <defs>
+    <clipPath id="strip"><rect width="{W}" height="{height}" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#strip)" font-family="{MONO}">
+    <rect width="{W}" height="{height}" fill="{BAR}"/>
+    <circle cx="34" cy="{height // 2}" r="7" fill="{RED}"/>
+    <circle cx="58" cy="{height // 2}" r="7" fill="{YELLOW}"/>
+    <circle cx="82" cy="{height // 2}" r="7" fill="{GREEN}"/>
+{body}
+  </g>
+</svg>
+"""
+
+
+def embed_image(path, x, y, width, height, clip=None):
+    """Inline a local raster as a data URI.
+
+    The mime type comes from the file signature, not the extension: the
+    DevOps Brasil avatar arrives as JPEG from a URL that ends in .png.
+    """
+    import base64
+
+    with open(path, "rb") as handle:
+        raw = handle.read()
+    if raw[:8].startswith(b"\x89PNG"):
+        mime = "image/png"
+    elif raw[:3] == b"\xff\xd8\xff":
+        mime = "image/jpeg"
+    else:
+        raise ValueError(f"{path}: unrecognised image signature {raw[:4].hex()}")
+    data = base64.b64encode(raw).decode()
+    attrs = f' clip-path="url(#{clip})"' if clip else ""
+    return (
+        f'<image x="{x}" y="{y}" width="{width}" height="{height}"{attrs} '
+        f'preserveAspectRatio="xMidYMid meet" href="data:{mime};base64,{data}"/>'
+    )
+
+
+def wrap(text, size, max_width):
+    """Greedy word wrap using the monospace advance width."""
+    words, lines, line = str(text).split(), [], ""
+    for word in words:
+        candidate = f"{line} {word}".strip()
+        if line and text_width(candidate, size) > max_width:
+            lines.append(line)
+            line = word
+        else:
+            line = candidate
+    if line:
+        lines.append(line)
+    return lines
