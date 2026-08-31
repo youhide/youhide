@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 596" width="1200" height="596" role="img" aria-label="Tech stack: Go, Rust, TypeScript, Node.js, C++, Bash, AWS, Google Cloud, DigitalOcean, Cloudflare, Kubernetes, Docker, Podman, Helm, OpenTofu, Terraform, Terragrunt, Ansible, GitHub Actions, Red Hat, Fedora, Ubuntu, FreeBSD, GhostBSD, macOS, Git">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="50%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="596" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="596" fill="#282a36"/>
+    <rect width="1200" height="596" fill="url(#dots)"/>
+
+    <rect width="1200" height="46" fill="#21222c"/>
+    <circle cx="34" cy="23" r="7" fill="#ff5555"/>
+    <circle cx="58" cy="23" r="7" fill="#f1fa8c"/>
+    <circle cx="82" cy="23" r="7" fill="#50fa7b"/>
+    <text x="600" y="28" text-anchor="middle" font-size="15" fill="#6272a4">youhide@homelab: ~/stack</text>
+
+    <text x="48" y="88" font-size="22"><tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">cat ~/.config/stack.toml</tspan></text>
+    <text x="48" y="122" font-size="13" fill="#6272a4">// LANGUAGES</text>
+    <g><rect x="48.0" y="140" width="64.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="64.0" cy="155.0" r="5" fill="#00ADD8"/><text x="76.0" y="160.0" font-size="14" fill="#f8f8f2">Go</text></g>
+    <g><rect x="122.8" y="140" width="81.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="138.8" cy="155.0" r="5" fill="#dea584"/><text x="150.8" y="160.0" font-size="14" fill="#f8f8f2">Rust</text></g>
+    <g><rect x="214.4" y="140" width="132.0" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="230.4" cy="155.0" r="5" fill="#3178c6"/><text x="242.4" y="160.0" font-size="14" fill="#f8f8f2">TypeScript</text></g>
+    <g><rect x="356.4" y="140" width="106.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="372.4" cy="155.0" r="5" fill="#5FA04E"/><text x="384.4" y="160.0" font-size="14" fill="#f8f8f2">Node.js</text></g>
+    <g><rect x="473.2" y="140" width="73.2" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="489.2" cy="155.0" r="5" fill="#00599C"/><text x="501.2" y="160.0" font-size="14" fill="#f8f8f2">C++</text></g>
+    <g><rect x="556.4" y="140" width="81.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="572.4" cy="155.0" r="5" fill="#4EAA25"/><text x="584.4" y="160.0" font-size="14" fill="#f8f8f2">Bash</text></g>
+    <text x="48" y="210" font-size="13" fill="#6272a4">// CLOUD &amp; INFRASTRUCTURE</text>
+    <g><rect x="48.0" y="228" width="73.2" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="64.0" cy="243.0" r="5" fill="#FF9900"/><text x="76.0" y="248.0" font-size="14" fill="#f8f8f2">AWS</text></g>
+    <g><rect x="131.2" y="228" width="148.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="147.2" cy="243.0" r="5" fill="#4285F4"/><text x="159.2" y="248.0" font-size="14" fill="#f8f8f2">Google Cloud</text></g>
+    <g><rect x="290.0" y="228" width="148.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="306.0" cy="243.0" r="5" fill="#0080FF"/><text x="318.0" y="248.0" font-size="14" fill="#f8f8f2">DigitalOcean</text></g>
+    <g><rect x="448.8" y="228" width="132.0" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="464.8" cy="243.0" r="5" fill="#F38020"/><text x="476.8" y="248.0" font-size="14" fill="#f8f8f2">Cloudflare</text></g>
+    <text x="48" y="298" font-size="13" fill="#6272a4">// CONTAINERS &amp; ORCHESTRATION</text>
+    <g><rect x="48.0" y="316" width="132.0" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="64.0" cy="331.0" r="5" fill="#326ce5"/><text x="76.0" y="336.0" font-size="14" fill="#f8f8f2">Kubernetes</text></g>
+    <g><rect x="190.0" y="316" width="98.4" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="206.0" cy="331.0" r="5" fill="#2496ED"/><text x="218.0" y="336.0" font-size="14" fill="#f8f8f2">Docker</text></g>
+    <g><rect x="298.4" y="316" width="98.4" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="314.4" cy="331.0" r="5" fill="#892CA0"/><text x="326.4" y="336.0" font-size="14" fill="#f8f8f2">Podman</text></g>
+    <g><rect x="406.8" y="316" width="81.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="422.8" cy="331.0" r="5" fill="#0F1689"/><text x="434.8" y="336.0" font-size="14" fill="#f8f8f2">Helm</text></g>
+    <text x="48" y="386" font-size="13" fill="#6272a4">// IAC &amp; AUTOMATION</text>
+    <g><rect x="48.0" y="404" width="115.2" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="64.0" cy="419.0" r="5" fill="#FFDA18"/><text x="76.0" y="424.0" font-size="14" fill="#f8f8f2">OpenTofu</text></g>
+    <g><rect x="173.2" y="404" width="123.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="189.2" cy="419.0" r="5" fill="#844FBA"/><text x="201.2" y="424.0" font-size="14" fill="#f8f8f2">Terraform</text></g>
+    <g><rect x="306.8" y="404" width="132.0" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="322.8" cy="419.0" r="5" fill="#5C4EE5"/><text x="334.8" y="424.0" font-size="14" fill="#f8f8f2">Terragrunt</text></g>
+    <g><rect x="448.8" y="404" width="106.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="464.8" cy="419.0" r="5" fill="#EE0000"/><text x="476.8" y="424.0" font-size="14" fill="#f8f8f2">Ansible</text></g>
+    <g><rect x="565.6" y="404" width="165.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="581.6" cy="419.0" r="5" fill="#2088FF"/><text x="593.6" y="424.0" font-size="14" fill="#f8f8f2">GitHub Actions</text></g>
+    <text x="48" y="474" font-size="13" fill="#6272a4">// SYSTEMS &amp; TOOLS</text>
+    <g><rect x="48.0" y="492" width="106.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="64.0" cy="507.0" r="5" fill="#EE0000"/><text x="76.0" y="512.0" font-size="14" fill="#f8f8f2">Red Hat</text></g>
+    <g><rect x="164.8" y="492" width="98.4" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="180.8" cy="507.0" r="5" fill="#51A2DA"/><text x="192.8" y="512.0" font-size="14" fill="#f8f8f2">Fedora</text></g>
+    <g><rect x="273.2" y="492" width="98.4" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="289.2" cy="507.0" r="5" fill="#E95420"/><text x="301.2" y="512.0" font-size="14" fill="#f8f8f2">Ubuntu</text></g>
+    <g><rect x="381.6" y="492" width="106.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="397.6" cy="507.0" r="5" fill="#AB2B28"/><text x="409.6" y="512.0" font-size="14" fill="#f8f8f2">FreeBSD</text></g>
+    <g><rect x="498.4" y="492" width="115.2" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="514.4" cy="507.0" r="5" fill="#3B82F6"/><text x="526.4" y="512.0" font-size="14" fill="#f8f8f2">GhostBSD</text></g>
+    <g><rect x="623.6" y="492" width="90.0" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="639.6" cy="507.0" r="5" fill="#f8f8f2"/><text x="651.6" y="512.0" font-size="14" fill="#f8f8f2">macOS</text></g>
+    <g><rect x="723.6" y="492" width="73.2" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="739.6" cy="507.0" r="5" fill="#F05033"/><text x="751.6" y="512.0" font-size="14" fill="#f8f8f2">Git</text></g>
+    <text x="48" y="566" font-size="13" fill="#6272a4"># brand colours are the only non-Dracula ink on this card</text>
+
+    <rect x="0" y="590" width="1200" height="6" fill="url(#accent)"/>
+  </g>
+</svg>

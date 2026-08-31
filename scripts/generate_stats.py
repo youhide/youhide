@@ -15,18 +15,22 @@ import urllib.request
 from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import svg  # noqa: E402
+
 API = "https://api.github.com/graphql"
 LOGIN = os.environ.get("STATS_LOGIN", "youhide")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "stats.svg")
 
-# Dracula palette — identical to assets/header.svg
-BG, BAR, LINE, FG = "#282a36", "#21222c", "#44475a", "#f8f8f2"
-COMMENT, PURPLE, PINK, CYAN = "#6272a4", "#bd93f9", "#ff79c6", "#8be9fd"
-GREEN, ORANGE, YELLOW, RED = "#50fa7b", "#ffb86c", "#f1fa8c", "#ff5555"
-MONO = "ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace"
+# Palette and frame come from scripts/svg.py so every card stays identical.
+BG, BAR, LINE, FG = svg.BG, svg.BAR, svg.LINE, svg.FG
+COMMENT, PURPLE, PINK, CYAN = svg.COMMENT, svg.PURPLE, svg.PINK, svg.CYAN
+GREEN, ORANGE, YELLOW, RED = svg.GREEN, svg.ORANGE, svg.YELLOW, svg.RED
+MONO = svg.MONO
 
-W, H = 1200, 550
-PAD = 48
+W, H = svg.W, 550
+PAD = svg.PAD
 
 
 def die(msg):
@@ -182,7 +186,7 @@ def streaks(days, today):
 
 
 def esc(text):
-    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return svg.esc(text)
 
 
 def human(n):

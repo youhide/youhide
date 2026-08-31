@@ -1,4 +1,4 @@
-name: Stats
+name: Profile
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: stats
+  group: profile
   cancel-in-progress: false
 
 jobs:
@@ -18,19 +18,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate assets/stats.svg
+      - name: Generate cards and refresh counts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/generate_stats.py
+        run: |
+          python3 scripts/generate_stats.py
+          python3 scripts/generate_techstack.py
+          python3 scripts/generate_codersrank.py
+          python3 scripts/update_readme.py
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- assets/stats.svg; then
-            echo "stats.svg unchanged, nothing to commit"
+          if git diff --quiet -- assets README.md; then
+            echo "nothing changed"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/stats.svg
-          git commit -m 'Update profile stats'
+          git add assets README.md
+          git commit -m 'Update profile cards'
           git push

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" width="1200" height="490" role="img" aria-label="CodersRank: #2,401 worldwide out of 628,306 developers; HCL #6 in Brazil, Rust #25 in Brazil, PLpgSQL #28 in Brazil, Shell #44 in Brazil, Go #55 in Brazil, TSQL #88 in Brazil, TypeScript #112 in Brazil, SQL #120 in Brazil">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="50%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="490" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="490" fill="#282a36"/>
+    <rect width="1200" height="490" fill="url(#dots)"/>
+
+    <rect width="1200" height="46" fill="#21222c"/>
+    <circle cx="34" cy="23" r="7" fill="#ff5555"/>
+    <circle cx="58" cy="23" r="7" fill="#f1fa8c"/>
+    <circle cx="82" cy="23" r="7" fill="#50fa7b"/>
+    <text x="600" y="28" text-anchor="middle" font-size="15" fill="#6272a4">youhide@homelab: ~/codersrank</text>
+
+    <text x="48" y="88" font-size="22"><tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">codersrank --rank</tspan></text>
+    <text x="48" y="160" font-size="42" font-weight="700" fill="#bd93f9">#2,401</text>
+    <text x="215" y="160" font-size="15" fill="#6272a4">worldwide, out of 628,306 developers</text>
+    <text x="48" y="196" font-size="13" fill="#6272a4">// language rank</text>
+    <text x="298" y="218" font-size="11" text-anchor="end" fill="#6272a4">BRAZIL</text><text x="448" y="218" font-size="11" text-anchor="end" fill="#6272a4">WORLD</text>
+    <text x="850" y="218" font-size="11" text-anchor="end" fill="#6272a4">BRAZIL</text><text x="1000" y="218" font-size="11" text-anchor="end" fill="#6272a4">WORLD</text>
+    <text x="48" y="242" font-size="15" fill="#f8f8f2">HCL</text><text x="298" y="242" font-size="15" text-anchor="end" fill="#50fa7b">#6</text><text x="448" y="242" font-size="15" text-anchor="end" fill="#6272a4">#37</text>
+    <text x="48" y="272" font-size="15" fill="#f8f8f2">Rust</text><text x="298" y="272" font-size="15" text-anchor="end" fill="#8be9fd">#25</text><text x="448" y="272" font-size="15" text-anchor="end" fill="#6272a4">#437</text>
+    <text x="48" y="302" font-size="15" fill="#f8f8f2">PLpgSQL</text><text x="298" y="302" font-size="15" text-anchor="end" fill="#8be9fd">#28</text><text x="448" y="302" font-size="15" text-anchor="end" fill="#6272a4">#255</text>
+    <text x="48" y="332" font-size="15" fill="#f8f8f2">Shell</text><text x="298" y="332" font-size="15" text-anchor="end" fill="#8be9fd">#44</text><text x="448" y="332" font-size="15" text-anchor="end" fill="#6272a4">#385</text>
+    <text x="600" y="242" font-size="15" fill="#f8f8f2">Go</text><text x="850" y="242" font-size="15" text-anchor="end" fill="#f8f8f2">#55</text><text x="1000" y="242" font-size="15" text-anchor="end" fill="#6272a4">#613</text>
+    <text x="600" y="272" font-size="15" fill="#f8f8f2">TSQL</text><text x="850" y="272" font-size="15" text-anchor="end" fill="#f8f8f2">#88</text><text x="1000" y="272" font-size="15" text-anchor="end" fill="#6272a4">#574</text>
+    <text x="600" y="302" font-size="15" fill="#f8f8f2">TypeScript</text><text x="850" y="302" font-size="15" text-anchor="end" fill="#f8f8f2">#112</text><text x="1000" y="302" font-size="15" text-anchor="end" fill="#6272a4">#865</text>
+    <text x="600" y="332" font-size="15" fill="#f8f8f2">SQL</text><text x="850" y="332" font-size="15" text-anchor="end" fill="#f8f8f2">#120</text><text x="1000" y="332" font-size="15" text-anchor="end" fill="#6272a4">#880</text>
+    <text x="48" y="380" font-size="13" fill="#6272a4">// #1 in londrina</text>
+    <g><rect x="48.0" y="396" width="132.0" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="64.0" cy="411.0" r="5" fill="#f1fa8c"/><text x="76.0" y="416.0" font-size="14" fill="#f8f8f2">TypeScript</text></g>
+    <g><rect x="190.0" y="396" width="106.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="206.0" cy="411.0" r="5" fill="#f1fa8c"/><text x="218.0" y="416.0" font-size="14" fill="#f8f8f2">ReactJS</text></g>
+    <g><rect x="306.8" y="396" width="106.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="322.8" cy="411.0" r="5" fill="#f1fa8c"/><text x="334.8" y="416.0" font-size="14" fill="#f8f8f2">Node.js</text></g>
+    <g><rect x="423.6" y="396" width="73.2" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="439.6" cy="411.0" r="5" fill="#f1fa8c"/><text x="451.6" y="416.0" font-size="14" fill="#f8f8f2">CSS</text></g>
+    <g><rect x="506.8" y="396" width="81.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="522.8" cy="411.0" r="5" fill="#f1fa8c"/><text x="534.8" y="416.0" font-size="14" fill="#f8f8f2">JSON</text></g>
+    <text x="48" y="460" font-size="13" fill="#6272a4"># generated 2026-08-31 · source codersrank.io</text>
+
+    <rect x="0" y="484" width="1200" height="6" fill="url(#accent)"/>
+  </g>
+</svg>
