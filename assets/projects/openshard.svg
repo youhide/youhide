@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 108" width="1200" height="108" role="img" aria-label="OpenShard (Rust) — Modern open-source MMORPG server engine, compatible with classic Ultima Online clients. 14 stars on GitHub.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 108" width="1200" height="108" role="img" aria-label="OpenShard (Rust) — Modern open-source MMORPG server engine, compatible with classic Ultima Online clients. 15 stars on GitHub.">
   <defs>
     <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#bd93f9"/>
@@ -19,7 +19,7 @@
     <text x="48" y="74" font-size="13" fill="#6272a4">Rust</text>
     <text x="285" y="48" font-size="15" fill="#f8f8f2">Modern open-source MMORPG server engine, compatible with classic Ultima Online</text>
     <text x="285" y="70" font-size="15" fill="#f8f8f2">clients</text>
-    <text x="1152" y="59" text-anchor="end" font-size="16" fill="#f1fa8c">★ 14</text>
+    <text x="1152" y="59" text-anchor="end" font-size="16" fill="#f1fa8c">★ 15</text>
 
     <rect x="0.75" y="0.75" width="1198.5" height="106.5" rx="12" fill="none" stroke="#44475a" stroke-width="1.5"/>
   </g>
