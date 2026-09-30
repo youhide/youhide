@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" width="1200" height="490" role="img" aria-label="CodersRank: #1,213 worldwide out of 628,394 developers; PLpgSQL #1 in Brazil, HCL #2 in Brazil, Rust #3 in Brazil, TSQL #6 in Brazil, JSON #12 in Brazil, Shell #12 in Brazil, CSS #15 in Brazil, Go #22 in Brazil">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" width="1200" height="490" role="img" aria-label="CodersRank: #1,213 worldwide out of 628,394 developers; PLpgSQL #1 in Brazil, HCL #2 in Brazil, Rust #3 in Brazil, TSQL #6 in Brazil, JSON #12 in Brazil, Shell #12 in Brazil, CSS #15 in Brazil, Go #22 in Brazil. Best worldwide: HCL #7, PLpgSQL #12, TSQL #29, Shell #94, Rust #122">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#bd93f9"/>
@@ -35,12 +35,12 @@
     <text x="600" y="272" font-size="15" fill="#f8f8f2">Shell</text><text x="850" y="272" font-size="15" text-anchor="end" fill="#8be9fd">#12</text><text x="1000" y="272" font-size="15" text-anchor="end" fill="#6272a4">#94</text>
     <text x="600" y="302" font-size="15" fill="#f8f8f2">CSS</text><text x="850" y="302" font-size="15" text-anchor="end" fill="#8be9fd">#15</text><text x="1000" y="302" font-size="15" text-anchor="end" fill="#6272a4">#155</text>
     <text x="600" y="332" font-size="15" fill="#f8f8f2">Go</text><text x="850" y="332" font-size="15" text-anchor="end" fill="#8be9fd">#22</text><text x="1000" y="332" font-size="15" text-anchor="end" fill="#6272a4">#292</text>
-    <text x="48" y="380" font-size="13" fill="#6272a4">// #1 in londrina</text>
-    <g><rect x="48.0" y="396" width="132.0" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="64.0" cy="411.0" r="5" fill="#f1fa8c"/><text x="76.0" y="416.0" font-size="14" fill="#f8f8f2">TypeScript</text></g>
-    <g><rect x="190.0" y="396" width="106.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="206.0" cy="411.0" r="5" fill="#f1fa8c"/><text x="218.0" y="416.0" font-size="14" fill="#f8f8f2">ReactJS</text></g>
-    <g><rect x="306.8" y="396" width="106.8" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="322.8" cy="411.0" r="5" fill="#f1fa8c"/><text x="334.8" y="416.0" font-size="14" fill="#f8f8f2">Node.js</text></g>
-    <g><rect x="423.6" y="396" width="73.2" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="439.6" cy="411.0" r="5" fill="#f1fa8c"/><text x="451.6" y="416.0" font-size="14" fill="#f8f8f2">CSS</text></g>
-    <g><rect x="506.8" y="396" width="81.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="522.8" cy="411.0" r="5" fill="#f1fa8c"/><text x="534.8" y="416.0" font-size="14" fill="#f8f8f2">JSON</text></g>
+    <text x="48" y="380" font-size="13" fill="#6272a4">// best worldwide</text>
+    <g><rect x="48.0" y="396" width="98.4" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="64.0" cy="411.0" r="5" fill="#50fa7b"/><text x="76.0" y="416.0" font-size="14" fill="#f8f8f2">HCL #7</text></g>
+    <g><rect x="156.4" y="396" width="140.4" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="172.4" cy="411.0" r="5" fill="#8be9fd"/><text x="184.4" y="416.0" font-size="14" fill="#f8f8f2">PLpgSQL #12</text></g>
+    <g><rect x="306.8" y="396" width="115.2" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="322.8" cy="411.0" r="5" fill="#8be9fd"/><text x="334.8" y="416.0" font-size="14" fill="#f8f8f2">TSQL #29</text></g>
+    <g><rect x="432.0" y="396" width="123.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="448.0" cy="411.0" r="5" fill="#8be9fd"/><text x="460.0" y="416.0" font-size="14" fill="#f8f8f2">Shell #94</text></g>
+    <g><rect x="565.6" y="396" width="123.6" height="30" rx="6" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><circle cx="581.6" cy="411.0" r="5" fill="#f1fa8c"/><text x="593.6" y="416.0" font-size="14" fill="#f8f8f2">Rust #122</text></g>
     <text x="48" y="460" font-size="13" fill="#6272a4"># generated 2026-09-30 · source codersrank.io</text>
 
     <rect x="0" y="484" width="1200" height="6" fill="url(#accent)"/>

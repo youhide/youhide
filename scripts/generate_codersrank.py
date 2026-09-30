@@ -22,8 +22,7 @@ BASE = "https://api.codersrank.io/v2/users"
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "codersrank.svg")
 
 TOP_N = 8
-# City-level leaderboards aren't exposed by the public API; these stay curated.
-LONDRINA = ["TypeScript", "ReactJS", "Node.js", "CSS", "JSON"]
+WORLD_N = 5  # how many languages to spotlight by worldwide rank
 
 
 def die(msg):
@@ -63,6 +62,16 @@ def build():
         die("no language carried a country_rank — refusing to render an empty card")
     ranked.sort(key=lambda row: row[1])
     ranked = ranked[:TOP_N]
+
+    worldwide = [
+        (name, data["country_rank"], data["world_wide_rank"])
+        for name, data in languages.items()
+        if isinstance(data, dict) and data.get("world_wide_rank")
+    ]
+    if not worldwide:
+        die("no language carried a world_wide_rank — refusing to render an empty card")
+    worldwide.sort(key=lambda row: row[2])
+    worldwide = worldwide[:WORLD_N]
 
     body, y = [], 88
     body.append(svg.prompt("codersrank --rank", y))
@@ -109,11 +118,13 @@ def build():
         )
     y += 26 + rows_per_col * 30 + 18
 
-    body.append(svg.section("#1 in londrina", y))
+    body.append(svg.section("best worldwide", y))
     y += 16
     x = svg.PAD
-    for name in LONDRINA:
-        markup, width = svg.pill(x, y, name, svg.YELLOW)
+    for name, _, world in worldwide:
+        # green for a top-10 placing, cyan for top-100, yellow beyond
+        accent = svg.GREEN if world <= 10 else svg.CYAN if world <= 100 else svg.YELLOW
+        markup, width = svg.pill(x, y, f"{name} #{world:,}", accent)
         body.append("    " + markup)
         x += width + 10
     y += 30
@@ -127,7 +138,9 @@ def build():
         height,
         f"{LOGIN}@homelab: ~/codersrank",
         f"CodersRank: #{position:,} worldwide out of {total_users:,} developers; "
-        + ", ".join(f"{n} #{c} in Brazil" for n, c, _ in ranked),
+        + ", ".join(f"{n} #{c} in Brazil" for n, c, _ in ranked)
+        + ". Best worldwide: "
+        + ", ".join(f"{n} #{w}" for n, _, w in worldwide),
         "\n".join(body),
     ), height, position, len(ranked)
 
