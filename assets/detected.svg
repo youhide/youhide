@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610" width="1200" height="610" role="img" aria-label="Technologies detected in code by CodersRank: ReactJS score 771, NextJS score 234, NestJS score 218, NodeJS score 152, Serde score 79, RxJS score 45, Supertest score 11, Tokio score 11, Clap score 10, node-postgres score 10, Log score 7, Pytest score 4">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="50%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="610" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="610" fill="#282a36"/>
+    <rect width="1200" height="610" fill="url(#dots)"/>
+
+    <rect width="1200" height="46" fill="#21222c"/>
+    <circle cx="34" cy="23" r="7" fill="#ff5555"/>
+    <circle cx="58" cy="23" r="7" fill="#f1fa8c"/>
+    <circle cx="82" cy="23" r="7" fill="#50fa7b"/>
+    <text x="600" y="28" text-anchor="middle" font-size="15" fill="#6272a4">youhide@homelab: ~/detected</text>
+
+    <text x="48" y="88" font-size="22"><tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">codersrank --technologies</tspan></text>
+    <text x="48" y="128" font-size="13" fill="#6272a4">// detected in code · 25 technologies found</text>
+    <text x="48" y="161" font-size="15" fill="#f8f8f2">ReactJS</text><rect x="330" y="147" width="620.0" height="14" rx="4" fill="#bd93f9"/><text x="962" y="160" font-size="13" fill="#6272a4">771</text>
+    <text x="48" y="195" font-size="15" fill="#f8f8f2">NextJS</text><rect x="330" y="181" width="341.2" height="14" rx="4" fill="#8be9fd"/><text x="683" y="194" font-size="13" fill="#6272a4">234</text>
+    <text x="48" y="229" font-size="15" fill="#f8f8f2">NestJS</text><rect x="330" y="215" width="329.4" height="14" rx="4" fill="#8be9fd"/><text x="671" y="228" font-size="13" fill="#6272a4">218</text>
+    <text x="48" y="263" font-size="15" fill="#f8f8f2">NodeJS</text><rect x="330" y="249" width="274.9" height="14" rx="4" fill="#8be9fd"/><text x="617" y="262" font-size="13" fill="#6272a4">152</text>
+    <text x="48" y="297" font-size="15" fill="#f8f8f2">Serde</text><rect x="330" y="283" width="198.3" height="14" rx="4" fill="#8be9fd"/><text x="540" y="296" font-size="13" fill="#6272a4">79</text>
+    <text x="48" y="331" font-size="15" fill="#f8f8f2">RxJS</text><rect x="330" y="317" width="149.3" height="14" rx="4" fill="#6272a4"/><text x="491" y="330" font-size="13" fill="#6272a4">45</text>
+    <text x="48" y="365" font-size="15" fill="#f8f8f2">Supertest</text><rect x="330" y="351" width="74.0" height="14" rx="4" fill="#6272a4"/><text x="416" y="364" font-size="13" fill="#6272a4">11</text>
+    <text x="48" y="399" font-size="15" fill="#f8f8f2">Tokio</text><rect x="330" y="385" width="74.0" height="14" rx="4" fill="#6272a4"/><text x="416" y="398" font-size="13" fill="#6272a4">11</text>
+    <text x="48" y="433" font-size="15" fill="#f8f8f2">Clap</text><rect x="330" y="419" width="69.4" height="14" rx="4" fill="#6272a4"/><text x="411" y="432" font-size="13" fill="#6272a4">10</text>
+    <text x="48" y="467" font-size="15" fill="#f8f8f2">node-postgres</text><rect x="330" y="453" width="69.1" height="14" rx="4" fill="#6272a4"/><text x="411" y="466" font-size="13" fill="#6272a4">10</text>
+    <text x="48" y="501" font-size="15" fill="#f8f8f2">Log</text><rect x="330" y="487" width="58.8" height="14" rx="4" fill="#6272a4"/><text x="401" y="500" font-size="13" fill="#6272a4">7</text>
+    <text x="48" y="535" font-size="15" fill="#f8f8f2">Pytest</text><rect x="330" y="521" width="44.0" height="14" rx="4" fill="#6272a4"/><text x="386" y="534" font-size="13" fill="#6272a4">4</text>
+    <text x="48" y="580" font-size="13" fill="#6272a4"># bar uses a square-root scale · score from codersrank.io</text>
+
+    <rect x="0" y="604" width="1200" height="6" fill="url(#accent)"/>
+  </g>
+</svg>

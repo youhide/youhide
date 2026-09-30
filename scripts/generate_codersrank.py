@@ -47,6 +47,17 @@ def fetch(path):
 def build():
     profile = fetch("")
     languages = fetch("/languages")
+    badges = fetch("/badges").get("badges") or []
+
+    # both are optional: if CodersRank stops returning them the row disappears
+    streak = next(
+        (b for b in badges if b.get("badgeFamily") == "Streak" and (b.get("values") or {}).get("days")),
+        None,
+    )
+    city = next(
+        (b for b in badges if b.get("location_type") == "city" and b.get("rank")),
+        None,
+    )
 
     position = profile.get("position")
     total_users = profile.get("total_users")
@@ -128,6 +139,23 @@ def build():
         body.append("    " + markup)
         x += width + 10
     y += 30
+
+    achievements = []
+    if streak:
+        achievements.append((f"{streak['values']['days']}-day commit streak", svg.GREEN))
+    if city:
+        achievements.append(
+            (f"#{city['rank']} {city.get('language', '?')} · {city.get('location_name', '?')}", svg.PINK)
+        )
+    if achievements:
+        body.append(svg.section("achievements", y))
+        y += 16
+        x = svg.PAD
+        for label, accent in achievements:
+            markup, width = svg.pill(x, y, label, accent)
+            body.append("    " + markup)
+            x += width + 10
+        y += 30
 
     stamp = datetime.now(timezone.utc).date().isoformat()
     y += 34

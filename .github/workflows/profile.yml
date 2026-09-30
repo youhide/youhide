@@ -26,6 +26,7 @@ jobs:
           python3 scripts/generate_techstack.py
           python3 scripts/generate_codersrank.py
           python3 scripts/generate_projects.py
+          python3 scripts/generate_detected.py
           python3 scripts/generate_about.py
           python3 scripts/bust_cache.py
 

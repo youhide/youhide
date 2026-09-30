@@ -54,7 +54,11 @@
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=85c70bea" width="100%"/></a>
+<img alt="Technologies detected in code by CodersRank: ReactJS, NextJS, NestJS, NodeJS, Serde, RxJS, Supertest, Tokio, Clap, node-postgres, Log, Pytest" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/detected.svg?v=8d28340f" width="100%"/>
+
+<img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
+
+<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=3bcce67c" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
