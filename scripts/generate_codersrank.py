@@ -25,6 +25,23 @@ TOP_N = 8
 WORLD_N = 5  # how many languages to spotlight by worldwide rank
 
 
+PILL_H = 30
+# svg.pill() takes the row's TOP edge, so advancing by only PILL_H leaves the
+# next baseline sitting on the pills' bottom border — which is how the
+# achievements label ended up drawn across the row above it.
+PILL_ROW_GAP = 26
+
+
+def pill_row(body, items, y):
+    """Draw one row of pills and return the y the next block should start at."""
+    x = svg.PAD
+    for label, accent in items:
+        markup, width = svg.pill(x, y, label, accent)
+        body.append("    " + markup)
+        x += width + 10
+    return y + PILL_H + PILL_ROW_GAP
+
+
 def die(msg):
     print(f"generate_codersrank: {msg}", file=sys.stderr)
     sys.exit(1)
@@ -131,14 +148,18 @@ def build():
 
     body.append(svg.section("best worldwide", y))
     y += 16
-    x = svg.PAD
-    for name, _, world in worldwide:
-        # green for a top-10 placing, cyan for top-100, yellow beyond
-        accent = svg.GREEN if world <= 10 else svg.CYAN if world <= 100 else svg.YELLOW
-        markup, width = svg.pill(x, y, f"{name} #{world:,}", accent)
-        body.append("    " + markup)
-        x += width + 10
-    y += 30
+    # green for a top-10 placing, cyan for top-100, yellow beyond
+    y = pill_row(
+        body,
+        [
+            (
+                f"{name} #{world:,}",
+                svg.GREEN if world <= 10 else svg.CYAN if world <= 100 else svg.YELLOW,
+            )
+            for name, _, world in worldwide
+        ],
+        y,
+    )
 
     achievements = []
     if streak:
@@ -150,15 +171,10 @@ def build():
     if achievements:
         body.append(svg.section("achievements", y))
         y += 16
-        x = svg.PAD
-        for label, accent in achievements:
-            markup, width = svg.pill(x, y, label, accent)
-            body.append("    " + markup)
-            x += width + 10
-        y += 30
+        y = pill_row(body, achievements, y)
 
     stamp = datetime.now(timezone.utc).date().isoformat()
-    y += 34
+    y += 8
     body.append(svg.note(f"generated {stamp} · source codersrank.io", y))
     height = y + 30
 
