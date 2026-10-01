@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import codersrank  # noqa: E402
 import svg  # noqa: E402
 
 LOGIN = os.environ.get("STATS_LOGIN", "youhide")
@@ -32,25 +33,22 @@ def die(msg):
     sys.exit(1)
 
 
-def fetch():
-    req = urllib.request.Request(URL, headers={"User-Agent": f"{LOGIN}-profile-stats"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.load(resp)
-    except urllib.error.HTTPError as exc:
-        die(f"CodersRank returned HTTP {exc.code} — keeping the previous card")
-    except urllib.error.URLError as exc:
-        die(f"could not reach CodersRank ({exc.reason}) — keeping the previous card")
-    except json.JSONDecodeError:
-        die("CodersRank sent malformed JSON — keeping the previous card")
+def has_scores(payload):
+    return any(
+        isinstance(entry, dict) and isinstance(entry.get("score"), (int, float))
+        for entry in payload.values()
+    )
 
+
+def fetch():
+    data = codersrank.get(LOGIN, "/technologies", has_scores, "technologies")
+    if data is None:
+        die("could not get usable technologies from CodersRank — keeping the previous card")
     rows = [
         (name, entry["score"])
         for name, entry in data.items()
         if isinstance(entry, dict) and isinstance(entry.get("score"), (int, float))
     ]
-    if not rows:
-        die("no technology carried a score — refusing to render an empty card")
     rows.sort(key=lambda row: -row[1])
     return rows
 

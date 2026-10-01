@@ -58,15 +58,15 @@
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<img alt="Technologies detected in code by CodersRank: ReactJS, NextJS, NestJS, NodeJS, Serde, RxJS, Supertest, Tokio, Clap, node-postgres, Log, Pytest" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/detected.svg?v=8d28340f" width="100%"/>
+<img alt="Technologies detected in code by CodersRank: ReactJS, NextJS, NestJS, NodeJS, Serde, RxJS, Supertest, Tokio, Clap, node-postgres, Log, Pytest" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/detected.svg?v=64dc8f25" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=8585bf91" width="100%"/></a>
+<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=d5842334" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=7be2b7a9" width="100%"/>
+<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=44f5d468" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 

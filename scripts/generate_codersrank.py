@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import codersrank  # noqa: E402
 import svg  # noqa: E402
 
 LOGIN = os.environ.get("STATS_LOGIN", "youhide")
@@ -47,24 +48,22 @@ def die(msg):
     sys.exit(1)
 
 
-def fetch(path):
-    url = f"{BASE}/{LOGIN}{path}?get_by=username"
-    req = urllib.request.Request(url, headers={"User-Agent": f"{LOGIN}-profile-stats"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.load(resp)
-    except urllib.error.HTTPError as exc:
-        die(f"CodersRank returned HTTP {exc.code} for {path} — keeping the previous card")
-    except urllib.error.URLError as exc:
-        die(f"could not reach CodersRank ({exc.reason}) — keeping the previous card")
-    except json.JSONDecodeError:
-        die(f"CodersRank sent malformed JSON for {path} — keeping the previous card")
+def fetch(path, is_valid, what):
+    payload = codersrank.get(LOGIN, path, is_valid, what)
+    if payload is None:
+        die(f"could not get usable {what} from CodersRank — keeping the previous card")
+    return payload
 
 
 def build():
-    profile = fetch("")
-    languages = fetch("/languages")
-    badges = fetch("/badges").get("badges") or []
+    profile = fetch("", lambda p: bool(p.get("position")), "profile")
+    languages = fetch(
+        "/languages",
+        lambda p: any(isinstance(v, dict) and v.get("country_rank") for v in p.values()),
+        "languages",
+    )
+    # badges are decorative, so a flaky read just drops the achievements row
+    badges = (codersrank.get(LOGIN, "/badges", lambda p: bool(p.get("badges")), "badges") or {}).get("badges") or []
 
     # both are optional: if CodersRank stops returning them the row disappears
     streak = next(
