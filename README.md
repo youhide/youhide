@@ -24,6 +24,10 @@
 
 <a href="https://github.com/youhide/oxinit"><img alt="oxinit (Rust) — A service manager and PID 1 for Linux, TOML units, no panic, no async runtime (pre-alpha)" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/oxinit.svg?v=01bf4b00" width="100%"/></a>
 
+<a href="https://github.com/youhide/ChainChaos"><img alt="ChainChaos (Rust) — Blockchain-aware JSON-RPC chaos testing proxy for EVM applications" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/chainchaos.svg?v=c4c07f1d" width="100%"/></a>
+
+<a href="https://github.com/youhide/hidePass"><img alt="hidePass (Rust) — A pass-compatible password manager, same store, same GPG keys, more features" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidepass.svg?v=42aefdd4" width="100%"/></a>
+
 <a href="https://github.com/youhide/hideDot"><img alt="hideDot (Go) — Blazing fast dotfiles manager: symlinks, git repo cloning and shell hooks from one YAML" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidedot.svg?v=aa274800" width="100%"/></a>
 
 <a href="https://github.com/youhide/homebrew-youhide"><img alt="homebrew-youhide (Ruby, Homebrew) — Homebrew tap for my dark tools" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/homebrew-youhide.svg?v=6333a340" width="100%"/></a>
