@@ -66,7 +66,7 @@
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=44f5d468" width="100%"/>
+<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=ae751ac8" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
