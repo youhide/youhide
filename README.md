@@ -30,7 +30,7 @@
 
 <a href="https://github.com/youhide/hideDot"><img alt="hideDot (Go) — Blazing fast dotfiles manager: symlinks, git repo cloning and shell hooks from one YAML" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidedot.svg?v=aa274800" width="100%"/></a>
 
-<a href="https://github.com/youhide/homebrew-youhide"><img alt="homebrew-youhide (Ruby, Homebrew) — Homebrew tap for my dark tools" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/homebrew-youhide.svg?v=6333a340" width="100%"/></a>
+<a href="https://github.com/youhide/homebrew-youhide"><img alt="homebrew-youhide (Ruby, Homebrew) — Homebrew tap for my dark tools" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/homebrew-youhide.svg?v=3999d260" width="100%"/></a>
 
 <a href="https://github.com/youhide/hideTop"><img alt="hideTop (Go) — Terminal system monitor: CPU, memory, Apple Silicon GPU metrics and energy impact" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidetop.svg?v=62d76cf6" width="100%"/></a>
 
@@ -58,15 +58,15 @@
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<img alt="Technologies detected in code by CodersRank: ReactJS, NextJS, NestJS, NodeJS, Serde, RxJS, Supertest, Tokio, Clap, node-postgres, Log, Pytest" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/detected.svg?v=64dc8f25" width="100%"/>
+<img alt="Technologies detected in code by CodersRank: ReactJS, NextJS, NestJS, NodeJS, Serde, RxJS, Supertest, Tokio, Clap, node-postgres, Log, Pytest" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/detected.svg?v=f9c45a9a" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=4389d3d1" width="100%"/></a>
+<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=4bef62ef" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=b81e35c4" width="100%"/>
+<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=84c1f55b" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
