@@ -22,10 +22,14 @@ API = "https://api.github.com/graphql"
 
 # slug, display name, stack, one-line description
 PROJECTS = [
-    ("youhide/OpenShard", "OpenShard", "Rust",
-     "Modern open-source MMORPG server engine, compatible with classic Ultima Online clients"),
+    ("youhide/hideOS", "hideOS", "Rust",
+     "A sealed, image-based Linux workstation OS built from source, with oxinit as PID 1"),
     ("youhide/oxinit", "oxinit", "Rust",
      "A service manager and PID 1 for Linux — TOML units, no panic, no async runtime (pre-alpha)"),
+    ("youhide/hideBoot", "hideBoot", "Rust",
+     "A UEFI boot manager with boot counting and automatic fallback"),
+    ("youhide/OpenShard", "OpenShard", "Rust",
+     "Modern open-source MMORPG server engine, compatible with classic Ultima Online clients"),
     ("youhide/ChainChaos", "ChainChaos", "Rust",
      "Blockchain-aware JSON-RPC chaos testing proxy for EVM applications"),
     ("youhide/hidePass", "hidePass", "Rust",

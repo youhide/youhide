@@ -17,8 +17,8 @@
 
     <text x="48" y="52" font-size="19" font-weight="700" fill="#bd93f9">oxinit</text>
     <text x="48" y="74" font-size="13" fill="#6272a4">Rust</text>
-    <text x="285" y="48" font-size="15" fill="#f8f8f2">A service manager and PID 1 for Linux — TOML units, no panic, no async runtime</text>
-    <text x="285" y="70" font-size="15" fill="#f8f8f2">(pre-alpha)</text>
+    <text x="285" y="48" font-size="15" fill="#f8f8f2">A service manager and PID 1 for Linux — TOML</text>
+    <text x="285" y="70" font-size="15" fill="#f8f8f2">units, no panic, no async runtime (pre-alpha)</text>
     <text x="1152" y="59" text-anchor="end" font-size="16" fill="#f1fa8c">★ 2</text>
 
     <rect x="0.75" y="0.75" width="1198.5" height="106.5" rx="12" fill="none" stroke="#44475a" stroke-width="1.5"/>

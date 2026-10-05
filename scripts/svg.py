@@ -172,9 +172,8 @@ def embed_image(path, x, y, width, height, clip=None):
     )
 
 
-def wrap(text, size, max_width):
-    """Greedy word wrap using the monospace advance width."""
-    words, lines, line = str(text).split(), [], ""
+def _greedy(words, size, max_width):
+    lines, line = [], ""
     for word in words:
         candidate = f"{line} {word}".strip()
         if line and text_width(candidate, size) > max_width:
@@ -185,3 +184,29 @@ def wrap(text, size, max_width):
     if line:
         lines.append(line)
     return lines
+
+
+def wrap(text, size, max_width):
+    """Word wrap for monospace text, balanced so no line is left a runt.
+
+    A plain greedy pass fills each line to the brim, which can leave the last
+    one holding a single word — hideOS overflowed by one character and wrapped
+    to a line reading just "1". Once the line count is known, the same text is
+    re-wrapped at progressively narrower targets: the narrowest target that
+    still fits in that many lines is the most evenly balanced one.
+    """
+    words = str(text).split()
+    if not words:
+        return []
+
+    lines = _greedy(words, size, max_width)
+    if len(lines) < 2:
+        return lines
+
+    best = lines
+    for step in range(1, 20):
+        candidate = _greedy(words, size, max_width * (1 - step * 0.025))
+        if len(candidate) != len(lines):
+            break
+        best = candidate
+    return best

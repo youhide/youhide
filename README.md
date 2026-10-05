@@ -20,15 +20,19 @@
 
 <img alt="Things I have built" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/labels/projects.svg?v=d74c23b0" width="100%"/>
 
-<a href="https://github.com/youhide/OpenShard"><img alt="OpenShard (Rust) — Modern open-source MMORPG server engine, compatible with classic Ultima Online clients" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/openshard.svg?v=1e52d1aa" width="100%"/></a>
+<a href="https://github.com/youhide/hideOS"><img alt="hideOS (Rust) — A sealed, image-based Linux workstation OS built from source, with oxinit as PID 1" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hideos.svg?v=0b941455" width="100%"/></a>
 
-<a href="https://github.com/youhide/oxinit"><img alt="oxinit (Rust) — A service manager and PID 1 for Linux, TOML units, no panic, no async runtime (pre-alpha)" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/oxinit.svg?v=01bf4b00" width="100%"/></a>
+<a href="https://github.com/youhide/oxinit"><img alt="oxinit (Rust) — A service manager and PID 1 for Linux, TOML units, no panic, no async runtime (pre-alpha)" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/oxinit.svg?v=4797efaa" width="100%"/></a>
+
+<a href="https://github.com/youhide/hideBoot"><img alt="hideBoot (Rust) — A UEFI boot manager with boot counting and automatic fallback" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hideboot.svg?v=c1e4f808" width="100%"/></a>
+
+<a href="https://github.com/youhide/OpenShard"><img alt="OpenShard (Rust) — Modern open-source MMORPG server engine, compatible with classic Ultima Online clients" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/openshard.svg?v=60a0d079" width="100%"/></a>
 
 <a href="https://github.com/youhide/ChainChaos"><img alt="ChainChaos (Rust) — Blockchain-aware JSON-RPC chaos testing proxy for EVM applications" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/chainchaos.svg?v=c4c07f1d" width="100%"/></a>
 
 <a href="https://github.com/youhide/hidePass"><img alt="hidePass (Rust) — A pass-compatible password manager, same store, same GPG keys, more features" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidepass.svg?v=42aefdd4" width="100%"/></a>
 
-<a href="https://github.com/youhide/hideDot"><img alt="hideDot (Go) — Blazing fast dotfiles manager: symlinks, git repo cloning and shell hooks from one YAML" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidedot.svg?v=aa274800" width="100%"/></a>
+<a href="https://github.com/youhide/hideDot"><img alt="hideDot (Go) — Blazing fast dotfiles manager: symlinks, git repo cloning and shell hooks from one YAML" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hidedot.svg?v=4a86d4fc" width="100%"/></a>
 
 <a href="https://github.com/youhide/homebrew-youhide"><img alt="homebrew-youhide (Ruby, Homebrew) — Homebrew tap for my dark tools" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/homebrew-youhide.svg?v=3999d260" width="100%"/></a>
 
@@ -48,7 +52,7 @@
 
 <img alt="Where I build" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/labels/building.svg?v=6de9aa1c" width="100%"/>
 
-<a href="https://postrite.app"><img alt="PostRite (@Post-Rite) — Social publishing in one workspace: 12+ networks, campaign calendar, approval workflows with audit trail, per-platform variants and an MCP server" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/building/postrite.svg?v=8c13fe9f" width="100%"/></a>
+<a href="https://postrite.app"><img alt="PostRite (@Post-Rite) — Social publishing in one workspace: 12+ networks, campaign calendar, approval workflows with audit trail, per-platform variants and an MCP server" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/building/postrite.svg?v=b7931f85" width="100%"/></a>
 
 <a href="https://github.com/DevOps-Brasil"><img alt="DevOps Brasil (@DevOps-Brasil) — Comunidade brasileira de DevOps, SRE, Cloud, Platform Engineering e Infra" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/building/devops-brasil.svg?v=a45f495a" width="100%"/></a>
 

@@ -17,8 +17,8 @@
 
     <text x="48" y="52" font-size="19" font-weight="700" fill="#bd93f9">hideDot</text>
     <text x="48" y="74" font-size="13" fill="#6272a4">Go</text>
-    <text x="285" y="48" font-size="15" fill="#f8f8f2">Blazing fast dotfiles manager — symlinks, git repo cloning and shell hooks from</text>
-    <text x="285" y="70" font-size="15" fill="#f8f8f2">one YAML</text>
+    <text x="285" y="48" font-size="15" fill="#f8f8f2">Blazing fast dotfiles manager — symlinks, git</text>
+    <text x="285" y="70" font-size="15" fill="#f8f8f2">repo cloning and shell hooks from one YAML</text>
     <text x="1152" y="59" text-anchor="end" font-size="16" fill="#f1fa8c">★ 7</text>
 
     <rect x="0.75" y="0.75" width="1198.5" height="106.5" rx="12" fill="none" stroke="#44475a" stroke-width="1.5"/>
