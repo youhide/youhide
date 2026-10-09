@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 550" width="1200" height="550" role="img" aria-label="GitHub stats for youhide: 8,554 public contributions, 12 day current streak, 55 day longest streak, 30 public repos, 45 stars">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 550" width="1200" height="550" role="img" aria-label="GitHub stats for youhide: 8,636 public contributions, 12 day current streak, 55 day longest streak, 30 public repos, 45 stars">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#bd93f9"/>
@@ -28,7 +28,7 @@
 
     <text x="48" y="88" font-size="22"><tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">gh stats --public</tspan></text>
 
-    <g><rect x="48.0" y="110" width="211.2" height="86" rx="8" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><text x="153.6" y="152" text-anchor="middle" font-size="32" font-weight="700" fill="#bd93f9">8,554</text><text x="153.6" y="176" text-anchor="middle" font-size="12" fill="#6272a4">public contributions</text></g>
+    <g><rect x="48.0" y="110" width="211.2" height="86" rx="8" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><text x="153.6" y="152" text-anchor="middle" font-size="32" font-weight="700" fill="#bd93f9">8,636</text><text x="153.6" y="176" text-anchor="middle" font-size="12" fill="#6272a4">public contributions</text></g>
     <g><rect x="271.2" y="110" width="211.2" height="86" rx="8" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><text x="376.8" y="152" text-anchor="middle" font-size="32" font-weight="700" fill="#50fa7b">12</text><text x="376.8" y="176" text-anchor="middle" font-size="12" fill="#6272a4">current streak</text></g>
     <g><rect x="494.4" y="110" width="211.2" height="86" rx="8" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><text x="600.0" y="152" text-anchor="middle" font-size="32" font-weight="700" fill="#ffb86c">55</text><text x="600.0" y="176" text-anchor="middle" font-size="12" fill="#6272a4">longest streak</text></g>
     <g><rect x="717.6" y="110" width="211.2" height="86" rx="8" fill="#21222c" stroke="#44475a" stroke-width="1.5"/><text x="823.2" y="152" text-anchor="middle" font-size="32" font-weight="700" fill="#8be9fd">30</text><text x="823.2" y="176" text-anchor="middle" font-size="12" fill="#6272a4">public repos</text></g>
@@ -37,11 +37,11 @@
     <text x="48" y="238" font-size="13" fill="#6272a4">// contributions · last 12 months</text>
     <line x1="48" y1="382" x2="1152" y2="382" stroke="#44475a" stroke-width="1"/>
     <line x1="48" y1="252" x2="1152" y2="252" stroke="#44475a" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
-    <text x="1152" y="244" text-anchor="end" font-size="12" fill="#6272a4">peak 722/week</text>
-    <polygon points="48.0,382.0 48.0,381.6 69.6,376.1 91.3,379.1 112.9,379.8 134.6,380.4 156.2,381.6 177.9,380.6 199.5,377.9 221.2,378.4 242.8,381.3 264.5,380.4 286.1,382.0 307.8,375.2 329.4,351.4 351.1,370.5 372.7,373.9 394.4,369.0 416.0,361.1 437.6,367.8 459.3,372.3 480.9,371.7 502.6,364.7 524.2,378.9 545.9,369.0 567.5,353.4 589.2,378.8 610.8,372.1 632.5,371.7 654.1,372.5 675.8,381.1 697.4,381.6 719.1,379.8 740.7,379.8 762.4,380.7 784.0,382.0 805.6,381.1 827.3,382.0 848.9,368.0 870.6,355.9 892.2,346.5 913.9,352.8 935.5,346.7 957.2,365.6 978.8,346.2 1000.5,285.5 1022.1,252.0 1043.8,346.5 1065.4,334.6 1087.1,329.2 1108.7,368.3 1130.4,302.4 1152.0,264.2 1152.0,382.0" fill="url(#area)"/>
-    <polyline points="48.0,381.6 69.6,376.1 91.3,379.1 112.9,379.8 134.6,380.4 156.2,381.6 177.9,380.6 199.5,377.9 221.2,378.4 242.8,381.3 264.5,380.4 286.1,382.0 307.8,375.2 329.4,351.4 351.1,370.5 372.7,373.9 394.4,369.0 416.0,361.1 437.6,367.8 459.3,372.3 480.9,371.7 502.6,364.7 524.2,378.9 545.9,369.0 567.5,353.4 589.2,378.8 610.8,372.1 632.5,371.7 654.1,372.5 675.8,381.1 697.4,381.6 719.1,379.8 740.7,379.8 762.4,380.7 784.0,382.0 805.6,381.1 827.3,382.0 848.9,368.0 870.6,355.9 892.2,346.5 913.9,352.8 935.5,346.7 957.2,365.6 978.8,346.2 1000.5,285.5 1022.1,252.0 1043.8,346.5 1065.4,334.6 1087.1,329.2 1108.7,368.3 1130.4,302.4 1152.0,264.2" fill="none" stroke="#bd93f9" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="1152" y="244" text-anchor="end" font-size="12" fill="#6272a4">peak 731/week</text>
+    <polygon points="48.0,382.0 48.0,381.5 69.6,375.4 91.3,379.7 112.9,380.0 134.6,380.4 156.2,381.8 177.9,380.6 199.5,377.2 221.2,379.2 242.8,381.1 264.5,380.6 286.1,381.8 307.8,372.4 329.4,353.7 351.1,370.3 372.7,374.7 394.4,369.0 416.0,357.5 437.6,372.4 459.3,372.8 480.9,365.1 502.6,371.7 524.2,378.6 545.9,357.8 567.5,365.5 589.2,377.9 610.8,371.3 632.5,368.0 654.1,378.3 675.8,381.1 697.4,380.4 719.1,380.9 740.7,380.0 762.4,380.8 784.0,381.5 805.6,381.6 827.3,382.0 848.9,365.3 870.6,353.9 892.2,346.6 913.9,354.6 935.5,349.5 957.2,363.1 978.8,343.9 1000.5,252.0 1022.1,288.5 1043.8,347.0 1065.4,336.5 1087.1,335.2 1108.7,367.8 1130.4,294.5 1152.0,261.1 1152.0,382.0" fill="url(#area)"/>
+    <polyline points="48.0,381.5 69.6,375.4 91.3,379.7 112.9,380.0 134.6,380.4 156.2,381.8 177.9,380.6 199.5,377.2 221.2,379.2 242.8,381.1 264.5,380.6 286.1,381.8 307.8,372.4 329.4,353.7 351.1,370.3 372.7,374.7 394.4,369.0 416.0,357.5 437.6,372.4 459.3,372.8 480.9,365.1 502.6,371.7 524.2,378.6 545.9,357.8 567.5,365.5 589.2,377.9 610.8,371.3 632.5,368.0 654.1,378.3 675.8,381.1 697.4,380.4 719.1,380.9 740.7,380.0 762.4,380.8 784.0,381.5 805.6,381.6 827.3,382.0 848.9,365.3 870.6,353.9 892.2,346.6 913.9,354.6 935.5,349.5 957.2,363.1 978.8,343.9 1000.5,252.0 1022.1,288.5 1043.8,347.0 1065.4,336.5 1087.1,335.2 1108.7,367.8 1130.4,294.5 1152.0,261.1" fill="none" stroke="#bd93f9" stroke-width="2.5" stroke-linejoin="round"/>
     <text x="69.6" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Oct</text>
-    <text x="134.6" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Nov</text>
+    <text x="112.9" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Nov</text>
     <text x="221.2" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Dec</text>
     <text x="307.8" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Jan</text>
     <text x="416.0" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Feb</text>
@@ -50,7 +50,7 @@
     <text x="675.8" y="402" text-anchor="middle" font-size="12" fill="#6272a4">May</text>
     <text x="784.0" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Jun</text>
     <text x="870.6" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Jul</text>
-    <text x="978.8" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Aug</text>
+    <text x="957.2" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Aug</text>
     <text x="1065.4" y="402" text-anchor="middle" font-size="12" fill="#6272a4">Sep</text>
 
     <text x="48" y="434" font-size="13" fill="#6272a4">// top languages · averaged across 30 public repos</text>
@@ -64,7 +64,7 @@
     <rect x="733.9" y="494" width="11" height="11" rx="2" fill="#89e051"/><text x="751.9" y="504" font-size="13" fill="#f8f8f2">Shell 4.3%</text>
     <rect x="846.9" y="494" width="11" height="11" rx="2" fill="#44475a"/><text x="864.9" y="504" font-size="13" fill="#f8f8f2">Other 24.5%</text>
 
-    <text x="48" y="534" font-size="13" fill="#6272a4"># generated 2026-10-08 · 13 years on GitHub · public data only</text>
+    <text x="48" y="534" font-size="13" fill="#6272a4"># generated 2026-10-09 · 13 years on GitHub · public data only</text>
 
     <rect x="0" y="544" width="1200" height="6" fill="url(#accent)"/>
   </g>
