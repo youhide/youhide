@@ -54,7 +54,7 @@
 
 <a href="https://postrite.app"><img alt="PostRite (@Post-Rite) — Social publishing in one workspace: 12+ networks, campaign calendar, approval workflows with audit trail, per-platform variants and an MCP server" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/building/postrite.svg?v=b7931f85" width="100%"/></a>
 
-<a href="https://github.com/DevOps-Brasil"><img alt="DevOps Brasil (@DevOps-Brasil) — Comunidade brasileira de DevOps, SRE, Cloud, Platform Engineering e Infra" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/building/devops-brasil.svg?v=a45f495a" width="100%"/></a>
+<a href="https://github.com/DevOps-Brasil"><img alt="DevOps Brasil (@DevOps-Brasil) — Comunidade brasileira de DevOps, SRE, Cloud, Platform Engineering e Infra" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/building/devops-brasil.svg?v=55931699" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
@@ -66,11 +66,11 @@
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=39d6704b" width="100%"/></a>
+<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=f9887f94" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=26ece3c9" width="100%"/>
+<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=4356e2c4" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
