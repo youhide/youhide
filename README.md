@@ -66,11 +66,11 @@
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=16ef84d3" width="100%"/></a>
+<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=43ec7b12" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=b9b0a84f" width="100%"/>
+<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=f6030f4c" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
