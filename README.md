@@ -22,7 +22,7 @@
 
 <a href="https://github.com/youhide/hideOS"><img alt="hideOS (Rust) — A sealed, image-based Linux workstation OS built from source, with oxinit as PID 1" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hideos.svg?v=0b941455" width="100%"/></a>
 
-<a href="https://github.com/youhide/oxinit"><img alt="oxinit (Rust) — A service manager and PID 1 for Linux, TOML units, no panic, no async runtime (pre-alpha)" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/oxinit.svg?v=4797efaa" width="100%"/></a>
+<a href="https://github.com/youhide/oxinit"><img alt="oxinit (Rust) — A service manager and PID 1 for Linux, TOML units, no panic, no async runtime (pre-alpha)" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/oxinit.svg?v=322de102" width="100%"/></a>
 
 <a href="https://github.com/youhide/hideBoot"><img alt="hideBoot (Rust) — A UEFI boot manager with boot counting and automatic fallback" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/projects/hideboot.svg?v=c1e4f808" width="100%"/></a>
 
@@ -66,11 +66,11 @@
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=aef79f84" width="100%"/></a>
+<a href="https://profile.codersrank.io/user/youhide"><img alt="CodersRank: worldwide position and language rankings" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/codersrank.svg?v=ed6b7cd4" width="100%"/></a>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
-<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=b8385685" width="100%"/>
+<img alt="GitHub stats: public contributions, current and longest streak, public repos, stars earned, contribution graph and top languages" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/stats.svg?v=ca6bb883" width="100%"/>
 
 <img alt="" src="https://raw.githubusercontent.com/youhide/youhide/main/assets/divider.svg?v=6191585c" width="100%"/>
 
